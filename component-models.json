@@ -161,6 +161,20 @@
     ]
   },
   {
+    "id": "cf-press",
+    "fields": [
+      {
+        "component": "aem-content-fragment",
+        "name": "fragment",
+        "label": "Content Fragment",
+        "valueType": "string",
+        "validation": {
+          "rootPath": "/content/dam/aem-eds-2026-tutorial"
+        }
+      }
+    ]
+  },
+  {
     "id": "columns",
     "fields": [
       {

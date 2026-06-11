@@ -1,0 +1,37 @@
+{
+  "definitions": [
+    {
+      "title": "CF Press",
+      "id": "cf-press",
+      "plugins": {
+        "xwalk": {
+          "page": {
+            "resourceType": "core/franklin/components/block/v1/block",
+            "template": {
+              "name": "CF Press",
+              "model": "cf-press"
+            }
+          }
+        }
+      }
+    }
+  ],
+  "models": [
+    {
+      "id": "cf-press",
+      "fields": [
+        {
+          "component": "aem-content-fragment",
+          "name": "fragment",
+          "label": "Content Fragment",
+          "valueType": "string",
+          "validation": {
+            "rootPath": "/content/dam/aem-eds-2026-tutorial"
+          }
+        }
+      ]
+    }
+  ],
+  "filters": []
+}
+
